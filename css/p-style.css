@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* start home */
+.projects
+{
+	background-color:#fff;
+	padding-top:20px;
+	position:relative;
+	z-index:5555;
+	overflow:hidden
+}
+.projects img
+{
+	border-radius:5px
+}
+.projects .col-md-3
+{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.projects .col-lg-12
+{
+	padding-bottom:26px
+}
+.projects .content
+{
+	position:relative;
+	overflow:hidden;
+	transition:all ease-in-out .5s
+}
+.projects .content:hover .p-caption
+{
+    opacity:1;
+	right:0px;
+}
+
+.projects .p-caption
+{
+	background-color:rgba(34, 163, 159, 0.9);
+	color:#fff;
+	position:absolute;
+	top:0;
+	left: 0;
+    right: 100%;
+	bottom:0px;
+	overflow:hidden;
+	padding-left: 15px;
+	opacity:0
+	
+}
+.p-caption h3
+{
+	padding-top:20px
+}
+.p-caption .title
+{
+		padding-top:20px
+
+}
+.p-caption h3:after
+{    content: "";
+    width: 250px;
+    height: 3px;
+    margin: 17px 0px 17px;
+    display: block;
+    background-color: #fff;
+}
+
+.projects .glyphicon-new-window
+{
+	background-color:#22A39F;
+	color:#fff;
+	font-size:21px;
+	padding:11px;
+	position:absolute;
+	top:0;
+	right:0px;
+	cursor: pointer;
+	z-index:99999;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px
+
+}
+.projects .p-caption
+{
+		transition:all ease-in-out .5s
+
+}
+.projects .p-caption p
+{
+	font-size:13px
+}
+.projects .content img
+{
+		transition:all ease-in-out 2s
+
+}
+
+.projects .content:hover img
+{
+	transform:scale(1.7,1.7);
+}
+
+
+
+.home
+{
+	position:fixed;
+	z-index:999999;
+	background-color:#fff;
+	top:-62px;
+	left:46.5%;
+	padding:31px;
+	background-color:#22A39F;
+	color:#fff;
+	border-radius:50%;
+	border:10px solid #fff	;
+	cursor:pointer
+}
+
+@media(max-width:991px){
+	.home
+    {
+	  left:44.5%;
+    }
+	}
+@media(max-width:768px){
+	.home
+    {
+	  left:43.5%;
+    }
+	}
+@media(max-width:575px){
+	.home
+    {
+	  left:40.5%;
+    }
+	}
+
+.home i
+{
+	position:relative;
+    top: 24px;
+    font-size: 23px;
+	
+}
+.home i
+{
+	text-decoration:none;
+	color:#fff
+}
+/* end home */
+/* start contact */
+
+/* end contact */
